@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "classic_cs_problems"
+version = "0.0.1"
+description = "Examples and Exercises from the book 'Classic Computer Science Problems in Python'"
+authors = ["Sara Slone <seslone@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^20.0", allow-prereleases = true}
+pytest = "^6.2.2"
+
+[build-system]
+requires = ["poetry>=1.1.4"]
+build-backend = "poetry.masonry.api"
